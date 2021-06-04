@@ -3,3 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face{
+  font-family : 'FaRegular';
+  src: local('FaRegular'), url('./Components//Fonts/fa-regular-400.ttf') format('truetype');
+}
+@font-face{
+  font-family : 'Brands';
+  src: local('Brands'), url('./Components//Fonts/fa-brands-400.ttf') format('truetype');
+}
+@font-face{
+  font-family : 'Solid';
+  src: local('Solid'), url('./Components//Fonts/fa-solid-900.ttf') format('truetype');
+}

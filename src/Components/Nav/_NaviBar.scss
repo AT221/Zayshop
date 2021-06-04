@@ -1,10 +1,18 @@
-@import '~bootstrap/scss/functions';
-@import '~bootstrap/scss/variables';
-
 @import '../../SASS/Variables';
 
+.top-container{
+    width: 100%;
+    .top-logos{
+        color: #fff;
+    }
+}
+.logo{
+    padding-left: 3vw;
+    img{
+        width: 85px;
+    }
+}
 
-
-.test{
-    background-color: orange;
+.bottom-nav-links{
+    font-size: 1.3rem;
 }
