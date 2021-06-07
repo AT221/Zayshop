@@ -1,1 +1,44 @@
 @import '../../../SASS//Variables';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+.caro-item{
+    font-family: FaRegular;
+    background-color: #EFEFEF;
+    .caro-img{
+        margin: 0 auto;
+        max-width: 500px;
+        max-height: 500px;
+        
+
+    }
+  .first-caption{
+      h3{
+          color: $logoGreen;
+          font-weight: bolder;
+          span{
+              font-weight: 100;
+          }
+      }
+  }
+  h3{
+      font-weight: lighter;
+  }
+  h4{
+      font-weight: 600;
+      padding: 1vh 0;
+  }
+  p{
+      font-size: 16px;
+  }
+}
+
+
+$carousel-control-color:$logoGreen;
+$carousel-indicator-active-bg:$logoGreen;
+$carousel-caption-color:   $logoGreen;
+
+
+$carousel-control-icon-width:  5rem;
+
+@import "~bootstrap/scss/bootstrap";
