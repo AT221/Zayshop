@@ -10,7 +10,7 @@ const Caro = () => {
     return (
         <div>
             <Container fluid  >
-                <Carousel variant=''>
+                <Carousel>
                     <Carousel.Item  className='caro-item' >
                         <Container>
                             <Row className='align-items-center justify-content-center'>
