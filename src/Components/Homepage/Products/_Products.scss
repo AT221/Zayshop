@@ -1,0 +1,13 @@
+@import '../../../SASS//Variables';
+
+.product-container{
+    font-family: Brands;
+    text-align: center;
+    background-color: #E9EEF5;
+    .first-row{
+        justify-content: center;
+    }
+    .star{
+        color: #e0d207
+    }
+}

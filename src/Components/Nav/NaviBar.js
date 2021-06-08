@@ -25,7 +25,7 @@ const NaviBar = () => {
                      </Nav.Link>
                      <Nav.Link href="">
                        <AiFillPhone className='top-logos mx-4'/>
-                      <Navbar.Text> 010-020-0340 </Navbar.Text> 
+                      <Navbar.Text> 123-457-7890 </Navbar.Text> 
                      </Nav.Link>
                    </Nav>
                  </Col>
